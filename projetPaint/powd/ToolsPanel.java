@@ -46,14 +46,13 @@ public class ToolsPanel extends JPanel
     
     configFrame=new ConfigFrame(canvasPanel, pframe);
 	  
- //gdjjhghfkhgfkfhgkhlhmh
     lineBtn =
       new JButton ("", new ImageIcon (pathIconos + "line_normal_begin.png"));
     transparentBtn =
       new JButton ("", new ImageIcon (pathIconos + "14_rectangle.png"));
     quitBtn = new JButton ("", new ImageIcon (pathIconos + "exit22.png"));
     saveScreenBtn =
-      new JButton ("", new ImageIcon (pathIconos + "camera22.png"));
+      new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
     arrowBtn = new JButton ("", new ImageIcon (pathIconos + "arrow19.png"));
     freeHandBtn =
       new JButton ("", new ImageIcon (pathIconos + "pencil19.png"));
