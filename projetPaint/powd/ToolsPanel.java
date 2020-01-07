@@ -61,7 +61,7 @@ public class ToolsPanel extends JPanel
     strokeBtn = new JButton ("", new ImageIcon (pathIconos + "stroke22.png"));
     clearBtn = new JButton ("", new ImageIcon (pathIconos + "eraser22.png"));
 
-    configBtn = new JButton ("", new ImageIcon (pathIconos + "cog.png"));
+    configBtn = new JButton ("", new ImageIcon (pathIconos + "cog2.png"));
 
 
     lineBtn.addActionListener (new ToolButtonListener ());
