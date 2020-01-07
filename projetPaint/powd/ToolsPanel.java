@@ -55,7 +55,7 @@ public class ToolsPanel extends JPanel
       new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
     arrowBtn = new JButton ("", new ImageIcon (pathIconos + "arrow21.png"));
     freeHandBtn =
-      new JButton ("", new ImageIcon (pathIconos + "pencil19.png"));
+      new JButton ("", new ImageIcon (pathIconos + "pencil191.png"));
     colorBtn =
       new JButton ("", new ImageIcon (pathIconos +"art-brush-color-drawing22.png"));
     strokeBtn = new JButton ("", new ImageIcon (pathIconos + "stroke22.png"));
