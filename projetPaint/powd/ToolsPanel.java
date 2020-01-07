@@ -46,7 +46,7 @@ public class ToolsPanel extends JPanel
     
     configFrame=new ConfigFrame(canvasPanel, pframe);
 	  
-
+ //gdjjhghfkhgfkfhgkhlhmh
     lineBtn =
       new JButton ("", new ImageIcon (pathIconos + "line_normal_begin.png"));
     transparentBtn =
