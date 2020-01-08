@@ -54,14 +54,19 @@ public class ToolsPanel extends JPanel
     quitBtn = new JButton ("", new ImageIcon (pathIconos + "exit22.png"));
     quitBtn.setBackground(Color.GRAY);
     saveScreenBtn = new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
+    saveScreenBtn.setBackground(Color.GRAY);
     arrowBtn = new JButton ("", new ImageIcon (pathIconos + "arrow21.png"));
+    arrowBtn.setBackground(Color.GRAY);
     freeHandBtn =new JButton ("", new ImageIcon (pathIconos + "pencil191.png"));
+    freeHandBtn.setBackground(Color.PINK);
     colorBtn =new JButton ("", new ImageIcon (pathIconos +"art-brush-color-drawing22.png"));
+    colorBtn.setBackground(Color.GRAY);
     strokeBtn = new JButton ("", new ImageIcon (pathIconos + "stroke22.png"));
     clearBtn = new JButton ("", new ImageIcon (pathIconos + "Neweraser.png"));
     clearBtn.setBackground(Color.PINK);
 
     configBtn = new JButton ("", new ImageIcon (pathIconos + "cog2.png"));
+    configBtn.setBackground(Color.PINK);
 
 
     lineBtn.addActionListener (new ToolButtonListener ());
