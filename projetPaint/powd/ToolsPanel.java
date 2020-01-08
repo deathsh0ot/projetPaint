@@ -48,70 +48,78 @@ public class ToolsPanel extends JPanel
     configFrame=new ConfigFrame(canvasPanel, pframe);
 	  
     lineBtn =new JButton ("", new ImageIcon (pathIconos + "line_normal_begin.png"));
+    lineBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     lineBtn.setBackground(Color.PINK);
     transparentBtn =new JButton ("", new ImageIcon (pathIconos + "14_rectangle.png"));
     transparentBtn.setBackground(Color.MAGENTA);
     quitBtn = new JButton ("", new ImageIcon (pathIconos + "exit22.png"));
+    quitBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     quitBtn.setBackground(Color.GRAY);
     saveScreenBtn = new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
+    saveScreenBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     saveScreenBtn.setBackground(Color.GRAY);
     arrowBtn = new JButton ("", new ImageIcon (pathIconos + "arrow21.png"));
+    arrowBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     arrowBtn.setBackground(Color.GRAY);
     freeHandBtn =new JButton ("", new ImageIcon (pathIconos + "pencil191.png"));
+    freeHandBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     freeHandBtn.setBackground(Color.PINK);
     colorBtn =new JButton ("", new ImageIcon (pathIconos +"art-brush-color-drawing22.png"));
+    colorBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     colorBtn.setBackground(Color.GRAY);
     strokeBtn = new JButton ("", new ImageIcon (pathIconos + "stroke22.png"));
     clearBtn = new JButton ("", new ImageIcon (pathIconos + "Neweraser.png"));
+    clearBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     clearBtn.setBackground(Color.PINK);
 
     configBtn = new JButton ("", new ImageIcon (pathIconos + "cog2.png"));
+    configBtn.setVerticalAlignment(SwingConstants.BOTTOM);
     configBtn.setBackground(Color.PINK);
 
 
     lineBtn.addActionListener (new ToolButtonListener ());
-    //lineBtn.setToolTipText ("Line");
+    lineBtn.setToolTipText ("Line");
     lineBtn.setText("Line");
 
     
     transparentBtn.addActionListener (new ToolButtonListener ());
-   // transparentBtn.setToolTipText ("Move");
+   transparentBtn.setToolTipText ("Move");
     transparentBtn.setText("Move");
     
     quitBtn.addActionListener (new ToolButtonListener ());
-   // quitBtn.setToolTipText ("Quit");
+   quitBtn.setToolTipText ("Quit");
     quitBtn.setText("Quit");
     
     saveScreenBtn.addActionListener (new ToolButtonListener ());
-   // saveScreenBtn.setToolTipText ("Take a Photo");
+   saveScreenBtn.setToolTipText ("Take a Photo");
     saveScreenBtn.setText("Save screen");
     
     arrowBtn.addActionListener (new ToolButtonListener ());
-   // arrowBtn.setToolTipText ("Arrow");
+   arrowBtn.setToolTipText ("Arrow");
     arrowBtn.setText("Arrow");
     
     
     freeHandBtn.addActionListener (new ToolButtonListener ());
-   // freeHandBtn.setToolTipText ("Free Hand");
+   freeHandBtn.setToolTipText ("Free Hand");
     freeHandBtn.setText("Free Hand");
     
     colorBtn.addActionListener (new ToolButtonListener ());
-   // colorBtn.setToolTipText ("Chose Color");
+   colorBtn.setToolTipText ("Chose Color");
     colorBtn.setText("Choose color");
 
     
     strokeBtn.addActionListener (new ToolButtonListener ());
-    //strokeBtn.setToolTipText ("Stroke");
+    strokeBtn.setToolTipText ("Stroke");
     strokeBtn.setText("Stroke");
 
     
     clearBtn.addActionListener (new ToolButtonListener ());
-   // clearBtn.setToolTipText ("Clear");
+   clearBtn.setToolTipText ("Clear");
     clearBtn.setText("Clear");
 
     
     configBtn.addActionListener (new ToolButtonListener ());
-    //configBtn.setToolTipText ("Config");
+    configBtn.setToolTipText ("Config");
     configBtn.setText("Config");
 
 
