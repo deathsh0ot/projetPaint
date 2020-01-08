@@ -33,6 +33,7 @@ public class ToolsPanel extends JPanel
  
   String pathIconos = "icons/";
   private JFrame pframe;
+  /*hhhhhh*/
 
   static GraphicsDevice grafica =
     GraphicsEnvironment.getLocalGraphicsEnvironment ().
