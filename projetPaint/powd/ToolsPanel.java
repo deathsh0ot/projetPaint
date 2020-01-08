@@ -47,18 +47,14 @@ public class ToolsPanel extends JPanel
     
     configFrame=new ConfigFrame(canvasPanel, pframe);
 	  
-    lineBtn =
-      new JButton ("", new ImageIcon (pathIconos + "line_normal_begin.png"));
-    transparentBtn =
-      new JButton ("", new ImageIcon (pathIconos + "14_rectangle.png"));
+    lineBtn =new JButton ("", new ImageIcon (pathIconos + "line_normal_begin.png"));
+    lineBtn.setBackground(Color.PINK);
+    transparentBtn =new JButton ("", new ImageIcon (pathIconos + "14_rectangle.png"));
     quitBtn = new JButton ("", new ImageIcon (pathIconos + "exit22.png"));
-    saveScreenBtn =
-      new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
+    saveScreenBtn = new JButton ("", new ImageIcon (pathIconos + "camera21.png"));
     arrowBtn = new JButton ("", new ImageIcon (pathIconos + "arrow21.png"));
-    freeHandBtn =
-      new JButton ("", new ImageIcon (pathIconos + "pencil191.png"));
-    colorBtn =
-      new JButton ("", new ImageIcon (pathIconos +"art-brush-color-drawing22.png"));
+    freeHandBtn =new JButton ("", new ImageIcon (pathIconos + "pencil191.png"));
+    colorBtn =new JButton ("", new ImageIcon (pathIconos +"art-brush-color-drawing22.png"));
     strokeBtn = new JButton ("", new ImageIcon (pathIconos + "stroke22.png"));
     clearBtn = new JButton ("", new ImageIcon (pathIconos + "Neweraser.png"));
 
