@@ -224,7 +224,7 @@ public class ToolsPanel extends JPanel
 	  grafica.setFullScreenWindow (null);
 
 	  color =
-	    colorsChooser.showDialog (null, "Choose Background Color");
+	    colorsChooser.showDialog (null, "Choose Pen Color");
           
           colorsChooser.setCurrentColor(color);
 	  
