@@ -39,7 +39,7 @@ public class ToolsPanel extends JPanel
     GraphicsEnvironment.getLocalGraphicsEnvironment ().
     getDefaultScreenDevice ();
 
-//hbuuuhyuhyuhuyu
+
   public ToolsPanel (CanvasPanel inCanvasPanel, JFrame pf)
   {
     pframe = pf;
@@ -98,7 +98,7 @@ public class ToolsPanel extends JPanel
    arrowBtn.setToolTipText ("Arrow");
     //arrowBtn.setText("Arrow");
     
-    
+    //Lllllj
     freeHandBtn.addActionListener (new ToolButtonListener ());
    freeHandBtn.setToolTipText ("Free Hand");
     //freeHandBtn.setText("Free Hand");
@@ -150,18 +150,18 @@ public class ToolsPanel extends JPanel
 
 
 
-/*		
+	/*
 		fullChk = new JCheckBox("Rellenar");
 		fullChk.addItemListener(
 			new ItemListener()
 			{
 				public void itemStateChanged(ItemEvent event)
 				{
-					if(fullChk.isSelected());
-						//canvasPanel.setTransparency(Boolean.TRUE);
-					else;
-					//	canvasPanel.setSolidMode(Boolean.FALSE);
-				}	
+					if(fullChk.isSelected()) {
+						canvasPanel.setTransparency(Boolean.TRUE);}
+					else {
+						canvasPanel.setSolidMode(Boolean.FALSE);
+					}
 			}
 
 		);

@@ -15,7 +15,11 @@ public class CanvasPanel extends JPanel implements MouseListener,
 //  final static BasicStroke thinStroke = new BasicStroke (4.0f);
 //  final static BasicStroke mediumStroke = new BasicStroke (9.0f);
 
-  protected final static int LINE = 1, FREE_HAND = 6, ARROW = 2;	// Determines mode (line, free hand or clear)
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+protected final static int LINE = 1, FREE_HAND = 6, ARROW = 2;	// Determines mode (line, free hand or clear)
   protected static Vector vLine, vFreeHand, vArrow;
 
   private Color foreGroundColor, backGroundColor;
@@ -300,7 +304,11 @@ public class CanvasPanel extends JPanel implements MouseListener,
 
   private class Coordinate implements Serializable
   {
-    private int x1, y1, x2, y2;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int x1, y1, x2, y2;
     private Color foreColor;
     private BasicStroke stroke;
 
