@@ -62,32 +62,55 @@ public class ToolsPanel extends JPanel
 
 
     lineBtn.addActionListener (new ToolButtonListener ());
-    lineBtn.setToolTipText ("Line");
-    transparentBtn.addActionListener (new ToolButtonListener ());
-    transparentBtn.setToolTipText ("Move");
-    quitBtn.addActionListener (new ToolButtonListener ());
-    quitBtn.setToolTipText ("Quit");
-    saveScreenBtn.addActionListener (new ToolButtonListener ());
-    saveScreenBtn.setToolTipText ("Take a Photo");
-    arrowBtn.addActionListener (new ToolButtonListener ());
-    arrowBtn.setToolTipText ("Arrow");
-    freeHandBtn.addActionListener (new ToolButtonListener ());
-    freeHandBtn.setToolTipText ("Free Hand");
-    colorBtn.addActionListener (new ToolButtonListener ());
-    colorBtn.setToolTipText ("Chose Color");
-    strokeBtn.addActionListener (new ToolButtonListener ());
-    strokeBtn.setToolTipText ("Stroke");
-    clearBtn.addActionListener (new ToolButtonListener ());
-    clearBtn.setToolTipText ("Clear");
+    //lineBtn.setToolTipText ("Line");
+    lineBtn.setText("Line");
 
+    
+    transparentBtn.addActionListener (new ToolButtonListener ());
+   // transparentBtn.setToolTipText ("Move");
+    transparentBtn.setText("Move");
+    
+    quitBtn.addActionListener (new ToolButtonListener ());
+   // quitBtn.setToolTipText ("Quit");
+    quitBtn.setText("Quit");
+    
+    saveScreenBtn.addActionListener (new ToolButtonListener ());
+   // saveScreenBtn.setToolTipText ("Take a Photo");
+    saveScreenBtn.setText("Save screen");
+    
+    arrowBtn.addActionListener (new ToolButtonListener ());
+   // arrowBtn.setToolTipText ("Arrow");
+    arrowBtn.setText("Arrow");
+    
+    
+    freeHandBtn.addActionListener (new ToolButtonListener ());
+   // freeHandBtn.setToolTipText ("Free Hand");
+    freeHandBtn.setText("Free Hand");
+    
+    colorBtn.addActionListener (new ToolButtonListener ());
+   // colorBtn.setToolTipText ("Chose Color");
+    colorBtn.setText("Choose color");
+
+    
+    strokeBtn.addActionListener (new ToolButtonListener ());
+    //strokeBtn.setToolTipText ("Stroke");
+    strokeBtn.setText("Stroke");
+
+    
+    clearBtn.addActionListener (new ToolButtonListener ());
+   // clearBtn.setToolTipText ("Clear");
+    clearBtn.setText("Clear");
+
+    
     configBtn.addActionListener (new ToolButtonListener ());
-    configBtn.setToolTipText ("Config");
+    //configBtn.setToolTipText ("Config");
+    configBtn.setText("Config");
 
 
     alphaSlider = new JSlider (JSlider.VERTICAL, 0, 255, 150);
     alphaSlider.setMajorTickSpacing (100);
     alphaSlider.setMinorTickSpacing (20);
-    //Font font = new Font("Serif", Font.ITALIC, 15);
+    Font font = new Font("Serif", Font.ITALIC, 15);
     //alphaSlider.setFont(font);
     
     
@@ -128,7 +151,7 @@ public class ToolsPanel extends JPanel
     this.setLayout (new GridLayout (0, 1));	// 8 Buttons & 1 CheckBox
     JPanel sliders=new JPanel();
     sliders.setLayout(new GridLayout (0, 2));
-    sliders.setBounds (0, 0, 30, 70);
+    sliders.setBounds (0, 0, 250, 400);
     sliders.add (alphaSlider);
     sliders.add (strokeSlider);
 
