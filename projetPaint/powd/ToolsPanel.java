@@ -151,7 +151,7 @@ public class ToolsPanel extends JPanel
     this.setLayout (new GridLayout (0, 1));	// 8 Buttons & 1 CheckBox
     JPanel sliders=new JPanel();
     sliders.setLayout(new GridLayout (0, 2));
-    sliders.setBounds (0, 0, 250, 400);
+    sliders.setBounds (0, 0, 150, 200);
     sliders.add (alphaSlider);
     sliders.add (strokeSlider);
 
