@@ -28,7 +28,8 @@ public class ConfigFrame extends JFrame //implements ItemListener
   {
     super("Configuration");
     setSize(250, 250);
-    setLocation(300,500);
+    setLocation(1100,50);
+    //changement du position fenetre du configuration
     pframe=pf;
     canvasPanel=inCanvasPanel;
         
