@@ -38,6 +38,7 @@ public class ToolsPanel extends JPanel
   static GraphicsDevice grafica =
     GraphicsEnvironment.getLocalGraphicsEnvironment ().
     getDefaultScreenDevice ();
+  private JButton btnNewButton;
 
 
   public ToolsPanel (CanvasPanel inCanvasPanel, JFrame pf)
@@ -179,6 +180,10 @@ public class ToolsPanel extends JPanel
     this.add (arrowBtn);
     this.add (lineBtn);
     this.add (colorBtn);
+    
+    btnNewButton = new JButton("",new ImageIcon (pathIconos + "paint.png"));
+    btnNewButton.setToolTipText("paint bucket");
+    add(btnNewButton);
 
     this.add (sliders);
 
