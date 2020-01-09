@@ -183,6 +183,7 @@ public class ToolsPanel extends JPanel
     
     btnNewButton = new JButton("",new ImageIcon (pathIconos + "paint.png"));
     btnNewButton.setToolTipText("paint bucket");
+    btnNewButton.setBackground(Color.PINK);
     add(btnNewButton);
 
     this.add (sliders);
